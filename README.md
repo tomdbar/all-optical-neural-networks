@@ -16,15 +16,20 @@ Recalling the backpropagation algorithm, obtaining the gradient of the loss func
 
 In this way, we can build all-optical neural networks.  This repository provides code to simulate the performance of these ONNs, and they are found to produce equivalent performance to computationally trained networks (ANNs).
 
-Transmission and exact and optically approximated gradients of an SA nonlinearity with an optical depth of 10.
+<p align="center">
 <img src="misc/imgs/SA_response.png" width="250">
+**Fig. 1:** Transmission and exact and optically approximated gradients of an SA nonlinearity with an optical depth of 10.
+</p>
 
-One possible free-space implementation of a single network layer.
-<img src="misc/imgs/ONN_layer.png" width="450">
+<p align="center">
+<img src="misc/imgs/SA_response.png" width="250">
+**Fig. 2:** One possible free-space implementation of a single network layer.
+</p>
 
-ONNs vs ANNs.
+<p align="center">
 <img src="misc/imgs/Results.png" width="450">
-
+**Fig. 3:** Trained performance of ONNs vs ANNs.
+</p>
 
 ## Requirements
 
