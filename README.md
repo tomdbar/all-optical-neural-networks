@@ -10,34 +10,28 @@ Supporting code for "End-to-end optical backpropagation for training neural netw
 
 We consider an optical neural network (ONN) that uses saturable absorption (SA) to realise the nonlinaer activation functions.  A README is not the setting for equations, but in brief this system allows us to perform both forward and backward propagation in a single pass with only passive optical elements.  A rough justification for this is below, but for details please see the paper!
 
-*Why?*
+*How does optical backpropagation work?*
 
 Recalling the backpropagation algorithm, obtaining the gradient of the loss function at each neuron requires multiplying the back-propagating loss with the gradient of the neuron's response to the forward-propagating signal.  SA in a pump-probe set up has a nonlinear response to the strong pump (i.e. forward propagating signal) and a weak linear response to the probe (i.e. back-propagating gradients).  Within the unsaturated (nonlinear) region of the SA response curve, this probe response is a good approximation of the gradient of the pump response, therefore it provides us with the necessary gradient backpropagation.
 
 In this way, we can build all-optical neural networks.  This repository provides code to simulate the performance of these ONNs, and they are found to produce equivalent performance to computationally trained networks (ANNs).
 
-<p align="center">
-    
+<p align="center"> 
 <img src="misc/imgs/SA_response.png" width="250">
 
 **Fig. 1:** Transmission and exact and optically approximated gradients of an SA nonlinearity with an optical depth of 10.
-
 </p>
 
-<p align="center">
-    
-<img src="misc/imgs/ONN_layer.png" width="250">
+<p align="center">    
+<img src="misc/imgs/ONN_layer.png" width="400">
 
 **Fig. 2:** One possible free-space implementation of a single network layer.
-
 </p>
 
-<p align="center">
-    
-<img src="misc/imgs/Results.png" width="450">
+<p align="center"> 
+<img src="misc/imgs/Results.png" width="650">
 
 **Fig. 3:** Trained performance of ONNs vs ANNs.
-
 </p>
 
 ## Requirements
@@ -56,9 +50,9 @@ In general, we consider [MLPs](experiments/mlp) and [CNNs](experiments/cnn).  Fo
 
 If you find this work or the associated paper useful, it can be cited as below.
 
-    @article{guo2019aonn,
+    @article{guoXXXXaonn,
       title={Exploratory Combinatorial Optimization with Reinforcement Learning},
       author={Guo, Xianxin and Barrett, Thomas D and Whang, Zhiming M and Lvovsky, AI},
-      journal={arXiv preprint arXiv:1909.04063},
-      year={2019}
+      journal={arXiv preprint arXiv:xxxx.xxxx},
+      year={XXXX}
     }
