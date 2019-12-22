@@ -26,7 +26,7 @@ In this way, we can build all-optical neural networks.  This repository provides
 
 <p align="center">
     
-<img src="misc/imgs/SA_response.png" width="250">
+<img src="misc/imgs/ONN_layer.png" width="250">
 
 **Fig. 2:** One possible free-space implementation of a single network layer.
 
@@ -51,7 +51,6 @@ For completeness, full details of the environment used in the experiments are in
 Scripts to train networks like those in the paper are provided in the [``experiments``](experiments) folder.
 
 In general, we consider [MLPs](experiments/mlp) and [CNNs](experiments/cnn).  For each these there are two scripts: ``train_ONN.py`` and ``train_ANN.py`` for training optical networks and a computational baseline, respectively.  It is straightforward to modify the arguments of each to train various network architectures and implementations.
-
 
 ## Reference
 
