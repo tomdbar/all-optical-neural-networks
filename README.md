@@ -16,7 +16,7 @@ Recalling the backpropagation algorithm, obtaining the gradient of the loss func
 
 In this way, we can build all-optical neural networks.  This repository provides code to simulate the performance of these ONNs, and they are found to produce equivalent performance to computationally trained networks (ANNs).
 
-![Transmission and exact and optically approximated gradients of an SA nonlinearity with an optical depth of $\alpha_0=10$.](misc/imgs/SA_response.eps)
+![Transmission and exact and optically approximated gradients of an SA nonlinearity with an optical depth of $\alpha_0=10$.](misc/imgs/SA_response.pdf)
 
 ![One possible free-space implementation of a single network layer.](misc/imgs/ONN_layer.eps)
 
@@ -33,3 +33,15 @@ For completeness, full details of the environment used in the experiments are in
 Scripts to train networks like those in the paper are provided in the [``experiments``](experiments) folder.
 
 In general, we consider [MLPs](experiments/mlp) and [CNNs](experiments/cnn).  For each these there are two scripts: ``train_ONN.py`` and ``train_ANN.py`` for training optical networks and a computational baseline, respectively.  It is straightforward to modify the arguments of each to train various network architectures and implementations.
+
+
+## Reference
+
+If you find this work or the associated paper useful, it can be cited as below.
+
+    @article{guo2019aonn,
+      title={Exploratory Combinatorial Optimization with Reinforcement Learning},
+      author={Guo, Xianxin and Barrett, Thomas D and Whang, Zhiming M and Lvovsky, AI},
+      journal={arXiv preprint arXiv:1909.04063},
+      year={2019}
+    }
