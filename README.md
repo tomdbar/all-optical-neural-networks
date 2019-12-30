@@ -2,7 +2,7 @@
 
 ---
 
-Supporting code for "End-to-end optical backpropagation for training neural networks" ([arXiv link](https://arxiv.org/abs/XXXX.XXXX)).
+Supporting code for "End-to-end optical backpropagation for training neural networks" ([arXiv link](https://arxiv.org/abs/1912.12256)).
 
 ---
 
@@ -50,9 +50,9 @@ In general, we consider [MLPs](experiments/mlp) and [CNNs](experiments/cnn).  Fo
 
 If you find this work or the associated paper useful, it can be cited as below.
 
-    @article{guoXXXXaonn,
+    @article{guo2019aonn,
       title={End-to-end optical backpropagation for training neural networks},
       author={Guo, Xianxin and Barrett, Thomas D and Whang, Zhiming M and Lvovsky, AI},
-      journal={arXiv preprint arXiv:xxxx.xxxx},
-      year={XXXX}
+      journal={arXiv preprint arXiv:1912.12256},
+      year={2019}
     }
