@@ -1,8 +1,10 @@
 # all-optical-neural-networks
+[![Generic badge](https://img.shields.io/badge/arXiv-1912.12256-<COLOR>.svg)](https://arxiv.org/abs/1912.12256)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](./LICENSE)
 
 ---
 
-Supporting code for "End-to-end optical backpropagation for training neural networks" ([arXiv link](https://arxiv.org/abs/1912.12256)).
+Supporting code for ["End-to-end optical backpropagation for training neural networks"](https://arxiv.org/abs/1912.12256).
 
 ---
 
