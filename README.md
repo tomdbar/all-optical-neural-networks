@@ -4,7 +4,7 @@
 
 ---
 
-Supporting code for ["End-to-end optical backpropagation for training neural networks"](https://arxiv.org/abs/1912.12256).
+Supporting code for ["Backpropagation through nonlinear units for all-optical training of neural networks"](https://arxiv.org/abs/1912.12256).
 
 ---
 
