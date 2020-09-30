@@ -1,6 +1,7 @@
 # all-optical-neural-networks
 [![Generic badge](https://img.shields.io/badge/arXiv-1912.12256-<COLOR>.svg)](https://arxiv.org/abs/1912.12256)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](./LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4059672.svg)](https://doi.org/10.5281/zenodo.4059672)
 
 ---
 
